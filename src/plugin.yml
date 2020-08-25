@@ -1,0 +1,11 @@
+name: TeamEndRace
+version: 1.0
+author: gurgi414
+main: me.gurgi414.teamendrace.Main
+description: Race to the end with your team! Each person gets a compass pointing at the nearest enemy.
+
+commands:
+  team:
+    description: Sets a player to a certain team
+  startrace:
+    description: Starts the compasses pointing at enemy
