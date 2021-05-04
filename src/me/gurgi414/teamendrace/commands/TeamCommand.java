@@ -42,7 +42,7 @@ public class TeamCommand implements CommandExecutor {
 		Player p = (Player) sender;
 
 		if (!(p.isOp())) {
-			p.sendMessage("Only the server admin can set teams *stupid bitch*");
+			p.sendMessage("Only the server admin can set teams");
 			return false;
 		}
 
