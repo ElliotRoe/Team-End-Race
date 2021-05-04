@@ -37,7 +37,7 @@ public class StartCommand implements CommandExecutor {
 		Player player = (Player) sender;
 
 		if (!(player.isOp())) {
-			player.sendMessage("Only the server admin can start thArrayList<E>tupid bitch*");
+			player.sendMessage("Only the server admin can start");
 			return false;
 		}
 
